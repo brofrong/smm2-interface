@@ -17,6 +17,8 @@ export default function Counter(props: CounterProps) {
         <Button class="bg-indigo-400" label="Рейтинги" Icon={<HelmetIcon class="text-white" />} onClick={() => setCount(count - 1)}></Button>
         <Button class="bg-yellow-500" label="Сетевая Игра" Icon={<NetworkIcon class="text-white" />} onClick={() => setCount(count - 1)}></Button>
         <Button class="bg-pink-500" label="Марафон Марио" Icon={<FlagIcon class="text-white" />} onClick={() => setCount(count - 1)}></Button>
+        <Button class="bg-green-200" label="Привет Света" Icon={<FlagIcon class="text-white" />} onClick={() => setCount(count - 1)}></Button>
+        <Button class="bg-black" label="Быстрый диплой" Icon={<FlagIcon class="text-white" />} onClick={() => setCount(count - 1)}></Button>
       </div>
   );
 }
