@@ -1,0 +1,26 @@
+import { JSX } from "preact";
+
+export function NetworkIcon(props: JSX.HTMLAttributes<SVGSVGElement>) {
+    return (
+        <svg {...props} width="149" height="41" viewBox="0 0 149 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M74 24C73.5 24 69 40 69.5 40C70 40 73.5 37 74 37C74.5 37 78 40 78.5 40C79 40 74.5 24 74 24Z" fill="currentcolor" />
+            <path d="M65.5 17C65.5 17 68.5 14 74 14C79.5 14 81.5 17 81.5 17" stroke="currentcolor" stroke-width="2" stroke-linecap="round" />
+            <path d="M60.5 13C60.5 13 65.5625 8 74.8438 8C84.125 8 87.5 13 87.5 13" stroke="currentcolor" stroke-width="2" stroke-linecap="round" />
+            <path d="M55.5 8C55.5 8 62.25 1 74.625 1C87 1 91.5 8 91.5 8" stroke="currentcolor" stroke-width="2" stroke-linecap="round" />
+            <path d="M131 40.5C131 40.5 133.5 34.5 133 34.5C132.5 34.5 127.5 30.5 127.5 26C127.5 19.5 131.701 16 137.5 16C143.299 16 147.5 20.5 147.5 26C147.5 29.5 142.5 34.5 142 34.5C141.5 34.5 144 40.5 144 40.5" stroke="currentcolor" stroke-width="2" />
+            <ellipse cx="135" cy="24" rx="2" ry="2.5" stroke="currentcolor" stroke-width="1.5" />
+            <ellipse cx="140" cy="24" rx="2" ry="2.5" stroke="currentcolor" stroke-width="1.5" />
+            <path d="M103 40C103 40 105.5 34 105 34C104.5 34 99.5 30 99.5 25.5C99.5 19 103.701 15.5 109.5 15.5C115.299 15.5 119.5 20 119.5 25.5C119.5 29 114.5 34 114 34C113.5 34 116 40 116 40" stroke="currentcolor" stroke-width="2" />
+            <ellipse cx="107" cy="23.5" rx="2" ry="2.5" stroke="currentcolor" stroke-width="1.5" />
+            <ellipse cx="112" cy="23.5" rx="2" ry="2.5" stroke="currentcolor" stroke-width="1.5" />
+            <path d="M4.5 40C4.5 40 7 34 6.5 34C6 34 1 30 1 25.5C1 19 5.20101 15.5 11 15.5C16.799 15.5 21 20 21 25.5C21 29 16 34 15.5 34C15 34 17.5 40 17.5 40" stroke="currentcolor" stroke-width="2" />
+            <ellipse cx="8.5" cy="23.5" rx="2" ry="2.5" stroke="currentcolor" stroke-width="1.5" />
+            <ellipse cx="13.5" cy="23.5" rx="2" ry="2.5" stroke="currentcolor" stroke-width="1.5" />
+            <path d="M32 40C32 40 34.5 34 34 34C33.5 34 28.5 30 28.5 25.5C28.5 19 32.701 15.5 38.5 15.5C44.299 15.5 48.5 20 48.5 25.5C48.5 29 43.5 34 43 34C42.5 34 45 40 45 40" stroke="currentcolor" stroke-width="2" />
+            <ellipse cx="36" cy="23.5" rx="2" ry="2.5" stroke="currentcolor" stroke-width="1.5" />
+            <ellipse cx="41" cy="23.5" rx="2" ry="2.5" stroke="currentcolor" stroke-width="1.5" />
+            <circle cx="74" cy="24.5" r="3.5" fill="currentcolor" />
+        </svg>
+
+    )
+}
