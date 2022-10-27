@@ -10,6 +10,5 @@ export function FlagIcon(props: JSX.HTMLAttributes<SVGSVGElement>) {
             <circle cx="3" cy="33" r="3" fill="white" />
             <circle cx="3" cy="10" r="2" fill="white" />
         </svg>
-
     )
 }
